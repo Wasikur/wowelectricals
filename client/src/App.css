@@ -1,0 +1,138 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+:root{
+  --theme-color-1: #82b440;
+
+  --clr-white: #fff;
+
+  /* header background  */
+  --header-bg-1:var(--theme-color-1);
+
+
+  /* footer background  */
+  /* --footer-bg-1:var(--theme-color-1); */
+
+  /* --base-color-1: #000;
+  --base-color-2: #fff;
+  --base-color-3: #dcd1ef;
+  --base-color-4: #B0BCDF; */
+
+  /* button color  */
+  /* --button-color-1: var(--theme-color-1); */
+
+  /* background color  */
+  /* --bg-color-1:var(--base-color-2); */
+  /* --bg-color-2:var(--base-color-3); */
+
+  /* h1 color  */
+  /* --h1-color-1:var(--base-color-2); */
+
+} 
+
+
+/* All CSS  */
+body {
+  font-family: 'Hind', sans-serif;
+  color: #242424;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hind', sans-serif;
+  color: #111111;
+}
+
+a {
+  color: #242424;
+  transition: 0.3s;
+  text-decoration: none!important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #82b440;
+}
+
+ul {
+  margin: 0!important;
+  padding: 0!important;
+  /* padding-left: 0px!important; */
+}
+
+li {
+  list-style: none;
+}
+.spacer-top {
+  padding-top: 80px;
+}
+.spacer-bottom {
+  padding-bottom: 80px;
+}
+.pa-heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.pa-heading h1 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 800;
+}
+.pa-heading h5 {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #82b440;
+  margin-bottom: 20px;
+}
+.pa-heading img {
+  opacity: 0.4;
+}
+.pa-btn {
+  background:#82b440;
+  color: #fff;
+  padding: 0px 20px;
+  min-width: 160px;
+  height: 50px;
+  line-height: 46px;
+  border: none;
+  border-radius: 50px;
+  text-transform: capitalize;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #82b440;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.pa-btn:hover {
+  outline: none;
+  background: #fff;
+  color: #82b440;
+}
+
+.pa-btn:focus,
+.modal-header .close {
+  outline: none;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  padding: 0px 20px;
+  border: 1px solid rgb(130 180 64 / 48%);
+  outline: none;
+  border-radius: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
