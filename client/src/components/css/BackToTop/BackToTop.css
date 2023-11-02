@@ -1,0 +1,46 @@
+/* ==go to top button css== */
+.go_top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 999;
+    width: 50px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+     border-radius: 50%; 
+     background-color:#fff; 
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 20px;
+    text-align: center;
+    z-index: 999 !important;
+  
+}
+.go_top.item-bounce img {
+    width: 40px;
+}
+.item-bounce {
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    -o-animation: bounce 3s infinite ease-in-out;
+    -ms-animation: bounce 3s infinite ease-in-out;
+    -moz-animation: bounce 3s infinite ease-in-out;
+    animation: bounce 3s infinite ease-in-out;
+}
+
+@keyframes bounce
+{
+    0% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    100% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+/* ==go to top button css== */

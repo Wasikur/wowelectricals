@@ -1,0 +1,29 @@
+.pa-contact-form {
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+    padding: 30px;
+    border-radius: 10px;
+    /* transform: translate(-130px, 36px); */
+    z-index: 1;
+    position: relative;
+    background: #fff;
+}
+.pa-contact-form input, .pa-contact-form textarea {
+    margin-bottom: 15px;
+}
+.pa-contact-form input {
+    width: 100%;
+    height: 50px;
+    padding: 0px 20px;
+    border: 1px solid rgb(130 180 64 / 48%);
+    outline: none;
+    border-radius: 50px;
+}
+.pa-contact-form textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px 20px;
+    border: 1px solid rgba(130, 180, 64, 0.48);
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+}

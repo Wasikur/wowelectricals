@@ -1,0 +1,163 @@
+.pa-banner-three {
+    position: relative;
+    overflow: hidden;
+    background-image: radial-gradient(at right top, #82b440 0%, #82b440 75%);
+    z-index: 0;
+}
+.pa-banner-three-text {
+    padding: 80px 0px 94px 150px;
+    position: relative;
+}
+.pa-banner-three .col-lg-5 {
+    align-items: center;
+    display: flex;
+}
+.pa-banner-three-text:after {
+    position: absolute;
+    content: '';
+    width: 400px;
+    height: 400px;
+    background: rgb(145 195 79);
+    border-radius: 63% 37% 50% 50%/70% 68% 32% 30%;
+    top: 30px;
+    left: 0;
+    z-index: 0;
+    animation: rotate_shape 2s alternate infinite;
+}
+@keyframes rotate_shape {
+    0% {
+        border-radius: 63% 47% 60% 60%/80% 78% 42% 40%;
+        transform: rotate(20deg);
+    }
+
+    100% {
+        border-radius: 60% 37% 50% 50%/70% 68% 32% 30%;
+    }
+}
+.pa-banner-three-img {
+    text-align: right;
+    padding: 80px 150px 80px 0;
+    z-index: 1;
+    position: relative;
+}
+.pa-banner-three-text h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.pa-banner-search .pa-btn {
+    position: absolute;
+    right: 5px;
+    height: 40px;
+    line-height: 36px;
+    top: 5px;
+    min-width: 120px;
+}
+.pa-banner-search {
+    position: relative;
+    margin-top: 30px;
+    z-index: 1;
+}
+.pa-banner-search input {
+    padding-right: 130px;
+}
+.pa-banner-three-text p {
+    margin-bottom: 0;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.pa-banner-three:after {
+    position: absolute;
+    top: -200px;
+    right: -20px;
+    width: 650px;
+    height: 850px;
+    background: rgb(145 195 79);
+    content: '';
+    border-radius: 100px 100px 100px 50px;
+    transform: rotate(81deg) skew(0deg, -12deg);
+    z-index: 0;
+    animation: banner_move_two 8s linear alternate infinite;
+}
+@keyframes banner_move_two {
+    0%,
+    100% {
+        transform: rotate(81deg) skew(0deg, -12deg) translateY(1px);
+    }
+    50% {
+        transform: rotate(81deg) skew(0deg, -12deg) translate(10px, -30px);
+    }
+}
+.pa-banner-three .col-md-5 {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1399px) {
+    .pa-banner-three-text {
+        padding: 65px 0px 79px 100px;
+    }
+    .pa-banner-three-img {
+        padding: 80px 100px 80px 0;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .pa-banner-three-text h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width:1035px) {
+    .pa-banner-three-text {
+        padding: 128px 0px 79px 100px;
+    }
+
+    .pa-banner-three-img {
+        padding: 130px 100px 80px 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .pa-banner-three-text:after {
+        display: none;
+    }
+    .pa-banner-three-text {
+        padding: 0px;
+    }
+    .pa-banner-three-img {
+        padding: 0px;
+        text-align: center;
+    }
+    .pa-banner-three{
+        padding-block: 90px;
+    }
+}
+@media screen and (max-width:767px) {
+    .pa-banner-three-text {
+        margin-bottom: 50px;
+    }
+    .pa-banner-three-text {
+        padding: 61px 20px 0px 20px;
+    }
+    .pa-banner-three-img {
+        padding: 0px;
+        text-align: center;
+    }
+    .pa-banner-three {
+        padding: 48px 0 60px;
+    }
+}
+@media screen and (max-width:795px) {
+    .pa-banner-three-text {
+        padding: 60px 0px 0px 34px;
+    }
+
+}

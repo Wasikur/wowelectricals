@@ -1,0 +1,127 @@
+.pa-product-sidebar {
+    padding: 30px 30px 25px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+/* Sidebar search Section  */
+.pa-widget.pa-search .pa-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    min-width: 100px;
+    height: 40px;
+    line-height: 36px;
+}
+.pa-widget.pa-search {
+    position: relative;
+}
+.pa-widget.pa-search input {
+    padding-right: 110px;
+}
+
+/* Sidebar categories section  */
+.pa-widget.pa-shop-category {
+    padding-bottom: 27px;
+}
+.pa-sidebar-title {
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.pa-widget {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 22px;
+    padding-bottom: 30px;
+}
+.pa-widget:last-child {
+    border: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.pa-widget ul li {
+    margin-bottom: 15px;
+    position: relative;
+}
+.pa-widget ul li:last-child {
+    margin-bottom: 0;
+}
+.pa-widget ul li a{
+    color: #242424;
+}
+.pa-widget ul li a.active {
+    color: #82b440;
+}
+.pa-widget ul li a:hover {
+    color: #82b440;
+}
+.pa-widget ul li span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background:#82b440;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0px 2px;
+}
+
+
+/* Sidebar Top Product Section  */
+.pa-product-widget ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+.pa-product-widget .pa-pro-wid-img {
+    width: 70px;
+}
+.pa-product-widget .pa-pro-wid-content {
+    width: calc(100% - 70px);
+    padding-left: 15px;
+}
+
+.pa-pro-wid-content h4 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.pa-pro-wid-content p {
+    margin-bottom: 0;
+}
+.pa-pro-wid-img img {
+    border: 1px solid #82b440;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Sidebar Tag Cloud Section  */
+.pa-widget.pa-tag ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 1px;
+}
+.pa-widget.pa-tag ul li a {
+    border: 1px solid rgb(130 180 64);
+    padding: 0px 10px;
+    min-height: 35px;
+    display: block;
+    line-height: 35px;
+    border-radius: 4px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.pa-widget.pa-tag ul li a:hover {
+    background-color: rgb(130 180 64);
+    color: #ffffff;
+}
+.skelton_margin_block span{
+    margin-block: 10px;
+}
+
+

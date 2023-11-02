@@ -1,0 +1,237 @@
+.pa-tesimonial{
+    background-color: #82b440;
+    background-image: url(https://dummyimage.com/280x280/);
+    position: relative;
+    z-index: 0;
+}
+.pa-tesimonial.spacer-top.spacer-bottom.pa-swiper-wrapper {
+    background-image: url(https://dummyimage.com/1920x800/);
+    position: relative;
+}
+.pa-tesimonial.spacer-top.spacer-bottom.pa-swiper-wrapper::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 51%);
+    z-index: -1;
+}
+
+
+
+.pa-tesimonial-box {
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    margin: auto;
+    padding: 35px;
+    align-items: center;
+    position: relative;
+}
+.pas-testi-img {
+    width: 300px;
+    z-index: 1;
+    position: relative;
+}
+.pas-testi-img::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #82b440;
+    z-index: -1;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.pas-testi-img::after {
+    position: absolute;
+    content: '';
+    right: -90px;
+    top: -35px;
+    width: 150px;
+    height: 150px;
+    background: rgba(186, 213, 178, 0.12);
+    z-index: -1;
+    margin: auto;
+    border-radius: 100%;
+}
+.pas-testi-img img {
+    border-radius: 10px;
+}
+.pas-testi-content {
+    width: calc(100% - 300px);
+    padding-left: 40px;
+}
+.pas-testi-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #fff;
+}
+.pas-testi-content h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.pas-testi-content .pa-view-all {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+    background-color: #82b440;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.pas-testi-content a.pa-view-all:hover {
+    background-color: white;
+    border: 1px solid #82b440;
+    color: #82b440;
+}
+.pas-testi-content .pa-view-all:after {
+    top: 6px;
+}
+.pas-testi-content .pa-view-all:before {
+    width: 15px;
+    top: 10px;
+    right: -39px;
+}
+.pa-tesimonial-box:after {
+    position: absolute;
+    content: '';
+    left: -8px;
+    top: -2px;
+    background-image: radial-gradient(#b6d2adeb 2px, transparent 2px);
+    background-size: 20px 20px;
+    width: 200px;
+    bottom: -8px;
+    z-index: 0;
+}
+.pa-tesimonial-button {
+    width: 100px;
+    right: 0;
+    position: absolute;
+    bottom: 53px;
+}
+.pas-testi-img:after {
+    position: absolute;
+    content: '';
+    right: -90px;
+    top: -35px;
+    width: 150px;
+    height: 150px;
+    background: rgba(186, 213, 178, 0.12);
+    z-index: -1;
+    margin: auto;
+    border-radius: 100%;
+}
+.pas-testi-img:before,
+.pa-about-img:before,
+.pa-services-img:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:#82b440;
+    z-index: -1;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.pa-tesimonial-box:hover .pas-testi-img:before,
+.pa-about-img:hover:before,
+.pa-services-img:hover:before {
+    top: -10px;
+    left: -10px;
+    bottom: 10px;
+    right: 10px;
+}
+.pa-trending-product,
+.pa-product-single {
+    padding-bottom: 65px;
+}
+.pa-services {
+    padding-bottom: 63px;
+}
+
+/* slick arrows  */
+/* Position the arrows at the bottom right corner */
+.slick-prev:before,
+.slick-next:before {
+  display: none; /* Hide default content */
+}
+.carousel-container {
+    position: relative;
+}  
+.carousel-arrows {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    padding: 5px;
+    border-top-left-radius: 5px;
+}  
+.carousel-arrow-left,
+.carousel-arrow-right {
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: #82b440;
+    border-radius: 50%;
+    padding: 10px;
+}  
+.carousel-arrow-left:hover,
+.carousel-arrow-right:hover {
+    color: #dddddd;
+}
+  
+
+
+@media screen and (max-width:767px) {
+    .pas-testi-content {
+        width: calc(100% - 200px);
+    }
+    .pas-testi-img {
+        width: 200px;
+    }
+}
+@media screen and (max-width:575px) {
+    .pa-tesimonial-box {
+        padding: 0 15px;
+        display: block;
+    }
+    .pas-testi-content {
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .pa-tesimonial-box:after,
+    .pas-testi-img:after {
+        display: none;
+    }
+    .pa-tesimonial-button {
+        right: 15px;
+        bottom: 18px;
+    }
+    .pas-testi-content p {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,8 @@
+@media (min-width: 0px) and (max-width: 991px) {
+    .pa-product-shop.spacer-top {
+        padding-top: 30px!important;
+    }
+    .pa-product-shop .spacer1{
+        padding-top: 30px;
+    }
+}

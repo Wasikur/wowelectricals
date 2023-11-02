@@ -1,0 +1,76 @@
+.pa-about-img:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:#82b440;
+    z-index: -1;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.pa-about-img:hover:before{
+    top: -10px;
+    left: -10px;
+    bottom: 10px;
+    right: 10px;
+}
+.pa-about-img {
+    position: relative;
+    width: fit-content;
+    /* margin-bottom: 30px; */
+}
+.pa-about-img img {
+    border-radius: 10px;
+}
+
+.pa-about-content .pa-heading{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.pa-about-content .pa-heading h5{
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #82b440;
+    margin-bottom: 20px;
+}
+.pa-about-content .pa-heading h1 {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.pa-about-content p:last-child {
+    margin: 0;
+}
+
+.pa-check-item {
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#aboutus .pa-check-item ul.pa-flex-item {
+    padding-right: 55px!important;
+}
+.pa-check-item li.pa-list-item {
+    padding-bottom: 5px;
+}
+.pa-check-item li.pa-list-item span i {
+    color: #82b440;
+    padding-right: 6px;
+}
+.pa-check-item span.pa-box-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 991px){
+    .pa-about-img {
+        margin-bottom: 30px;
+    }
+}

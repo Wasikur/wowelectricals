@@ -1,0 +1,27 @@
+.pa-contact-box {
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+    padding: 25px 30px 23px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pa-contact-box:hover {
+    transform: translateY(-5px);
+}
+.pa-contact-box span svg {
+    height: 60px;
+    width: 60px;
+    fill: #82b440;
+    margin-bottom: 15px;
+}
+.pa-contact-box h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.pa-contact-box p {
+    margin-bottom: 0px;
+    max-width: 100%;
+    width: 210px;
+    margin: 0 auto;
+}

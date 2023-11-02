@@ -1,0 +1,58 @@
+.pa-why{
+    background-color: #82b440;
+    background-image: url(https://dummyimage.com/280x280/);
+    position: relative;
+    z-index: 0;
+}
+.pa-why.spacer-top.spacer-bottom::before {
+    position: absolute;
+    content: "";
+    background-color: transparent;
+    background-image: radial-gradient(at top right, #709184CC 0%, #709184 75%);
+    background-image: radial-gradient(at right top, rgb(130 180 64 / 54%) 0%, rgb(130 180 64 / 98%) 75%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.pa-heading {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.pa-heading.pa-benefit-heading h5,
+.pa-heading.pa-benefit-heading h1 {
+    color: #fff;
+}
+
+.pa-pure-text-00{
+    text-align: center;
+    margin-bottom: 30px;
+    background: #8dbb52;
+    padding: 20px 20px;
+}
+.pa-pure-text-00 h2{
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+.pa-pure-text-00 p{
+    max-width: 290px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.pa-pure-img img {
+    width: 100%;
+}
+@media screen and (max-width: 767px){
+    .pa-pure-img {
+        margin-bottom: 45px;
+    }
+    .pa-why .col-md-4:nth-child(2) {
+        order: -1;
+    }
+}

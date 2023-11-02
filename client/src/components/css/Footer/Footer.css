@@ -1,0 +1,218 @@
+/* footer start */
+.pa-footer {
+    /* background: url(../images/banner-shape.png)#111; */
+    background-size: cover;
+    padding: 72px 0 42px;
+    background-image: linear-gradient(135deg, rgb(130 180 64) 0%, rgb(130 180 64) 100%);
+}
+
+.pa-foot-box img,
+.pa-foot-box {
+    margin-bottom: 30px;
+}
+
+.pa-foot-box p,
+.pa-foot-box a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.pa-foot-box a:hover {
+    color: #000000;
+}
+
+.pa-foot-title {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.pa-foot-box ul li {
+    margin-bottom: 10px;
+}
+
+.pa-foot-box ul li:last-child,
+.pa-foot-box p {
+    margin-bottom: 0px;
+}
+
+.pa-newsletter {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.pa-newsletter .pa-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 40px;
+    line-height: 36px;
+}
+
+.pa-newsletter input {
+    padding-right: 170px;
+    border: none;
+}
+
+/* footer end */
+/* copyright start */
+.pa-copyright p,
+.pa-copyright p a {
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+}
+.pa-copyright {
+    /* background: #6caaa8; */
+    background-image: linear-gradient(135deg, rgb(130 180 64) 0%, rgb(130 180 64) 100%);
+    padding: 12px 0;
+    text-align: center;
+    position: relative;
+}
+.pa-copyright:before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 1px;
+    background-color: rgb(255 255 255 / 43%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0px;
+}
+
+/* copyright end */
+
+
+
+
+
+
+/* .footer_bg{
+    background-color: var(--footer-bg-1);
+}
+.white{
+    height: 250px;
+    background-color: var(--bg-color-2);
+}
+.circle{
+    border: 2px solid var(--theme-color-1);
+    border-radius: 250px;
+    position: relative;
+    margin: -200px auto 0;
+    height: 350px;
+    width: 350px;
+    background-color: #dcd1ef;
+    display: grid;
+    place-items: center;
+}
+.circle h3{
+    font-family: NB Akademie;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--theme-color-1);
+    text-align: center;
+    width: 185px;
+    padding-top: 20px;
+}
+.circle form input{
+    border-radius: 50px;
+    width: 300px;
+    display: block;
+    border: 2px solid var(--theme-color-1);
+    margin-top: 8px;
+    padding: 10px 5px;
+    font-family: NB Akademie;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--theme-color-1);
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.circle form input:focus {
+    color: var(--theme-color-1);
+    background-color: transparent;
+    box-shadow: none;
+    border-color: var(--theme-color-1);
+}
+.circle form input::placeholder {
+    color: var(--theme-color-1);
+}
+.circle p{
+    color: var(--theme-color-1);
+    line-height: 1;
+    font-size: 11px;
+    width: 280px;
+    display: block;
+    margin: 20px auto 0;
+    font-weight: 500;
+    text-align: center;
+}
+.circle button{
+    color: #fff;
+    font-family: NB Akademie;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19px;
+    padding: 9px 18px;
+    height: 38px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--button-color-1);
+    position: relative;
+    text-decoration: none;
+    transition: .3s transform cubic-bezier(.4,0,.2,1);
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+/* .footer-tagline{
+    font-family: Onyx;
+    font-weight: 400;
+    font-size: 9vw;
+    color: #efebf8;
+    text-align: center;
+    line-height: 65px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    width: 100%;
+} */
+/* .secondarylinks{
+    list-style: none;
+    margin-top: 20px;
+    float: right;
+    padding-left: 0px;
+}
+.secondarylinks li a{
+    text-decoration: none;
+    color: #efebf8;
+    font-size: 16px;
+} */
+
+/* hide input number arrows */
+/* Chrome, Safari, Edge, Opera */
+/* form input::-webkit-outer-spin-button,
+form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Firefox */
+/* form input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+} */
+
+/* @media screen and (max-width: 768px) { */
+/* @media (min-width: 0px) and (max-width: 768px) { */
+    /* .secondarylinks{
+        float: left;
+        padding-left: 2rem;
+    } */
+/* } */
+
+
+ 
