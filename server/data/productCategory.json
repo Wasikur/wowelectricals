@@ -1,0 +1,32 @@
+[
+    { 
+        "categoryid":"1",
+        "categoryname": "RJUV9",
+        "categoryurl": "rjuv9",
+        "status": "1"
+    },
+    { 
+        "categoryid":"2",
+        "categoryname": "Latest products",
+        "categoryurl": "latestproducts",
+        "status": "1"
+    },
+    { 
+        "categoryid":"3",
+        "categoryname": "New trending",
+        "categoryurl": "newtrending",
+        "status": "1"
+    },
+    { 
+        "categoryid":"4",
+        "categoryname": "New arrivals",
+        "categoryurl": "newarrivals",
+        "status": "1"
+    },
+    { 
+        "categoryid":"5",
+        "categoryname": "Recently added",
+        "categoryurl": "recentlyadded",
+        "status": "1"
+    }
+]

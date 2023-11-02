@@ -1,0 +1,62 @@
+[
+    { 
+        "productid":"1",
+        "productname": "git14 digestive drops 15ml", 
+        "imgnames": ["10151_1.jpg", "10151_2.png", "10151_3.png", "10151_4.jpg", "10151_5.jpg"],
+        "price1":"999",
+        "price2":"900",
+        "producturl":"git14-digestive-drops-15ml",
+        "status":"1",
+        "categoryid":[1,3,5],
+        "description":"<p>GIT 14 drop is the high quality digestive drops composed and prepared with best quality herbal extract and oil extracted from the fresh herbs under hygienic condition, strictly accordance with Vedic principles.</p>",
+        "productcode":"10151",
+        "productfeatures":"<p>GIT 14 drop is the high quality digestive drops composed and prepared with best quality herbal extract and oil extracted from the fresh herbs under hygienic condition, strictly accordance with Vedic principles.</p> <p><span class='uspbold'>INGREDIENTS:</span> Pudina (<em>Mentha piperita</em>) satva-, Ajwain (<em>Trachyspermum ammi</em>) satva, Muli kshar (<em>Raphanus sativus</em>) Powder, Senda Namak, Tankan Bhasam, Aloe vera leaves pulp, Hing (<em>Ferula narthex</em>) powder, Maharasnadi kwath, Tulsi (<em>Ocimum sanctum</em>) oil, Makkangini (<em>Celastrus paniculatus</em>) oil, Kalonji (<em>Nigella sativa</em>) oil.</p> <p><span class='uspbold'>DOSAGE:</span> 5-10 drops twice a day with water or as directed by physician.</p> <p><span class='uspbold'>STORAGE:</span> Store in a cool, dry &amp; hygiene place.</p> <div class='pa-prod-content'><span class='uspbold'>BENEFITS: </span><ul><li>Helps to Improve digestion</li><li>Provide relief from upset stomach</li><li>Provide relief from hyperacidity &amp; heartburn</li></ul></div>",
+        "productusp":"<div class='pa-prod-content'><ul><li>Manufactured in GMP Certified Facility</li><li>Complete traditional recipe for your digestive problems</li><li>100% Premium Quality Ayurvedic Formulation</li></ul></div>",
+        "keywords": ["hyperacidity", "heartburn","digestion"]
+    },
+    { 
+        "productid":"2",
+        "productname": "body bar 70gm",
+        "imgnames": ["10153_1.png"], 
+        "price1":"249",
+        "price2":"230",
+        "producturl":"body-bar-70gm",
+        "status":"1",
+        "categoryid":[1,2,4],
+        "description":"<p>It is the multipurpose ayurvedic formulation which improves complexion, remove dead cells, nourishes and regenerate the skin. Effective in pimples, Dark Skin, Blemishes &amp; clear spots. It restores normal colour &amp; texture of the skin.</p>",
+        "productcode":"10153",
+        "productfeatures":"<p>It is the multipurpose ayurvedic formulation which improves complexion, remove dead cells, nourishes and regenerate the skin. Effective in pimples, Dark Skin, Blemishes &amp; clear spots. It restores normal colour &amp; texture of the skin.</p><p>rjuv9 body bar is made from pure herbal base and is extremely mild on skin with antibacterial properties. It helps to prevent dryness and makes skin softy and supple. This bathing bar is suitable for all skin types and 100% chemical free.</p><p><span class='uspbold'>ACTIVE INGREDIENTS:</span> Gandhak pishti, Chalmongra Oil, Neem Oil, Syzgium Aromaticum</p><p><span class='uspbold'>STORAGE:</span>Store in a cool, dry &amp; hygiene place.</p><div class='pa-prod-content'><span class='uspbold'>BENEFITS: </span><ul><li>Helps to keep your skin refreshed</li><li>Possess antibacterial properties</li><li>Prevent Dryness of skin</li></ul></div>",
+        "productusp":"<div class='pa-prod-content'><ul><li>Manufactured in GMP Certified Facility</li><li>Parabens &amp; SLS Free</li><li>100% Premium Quality Ayurvedic Formulation</li></ul></div>",
+        "keywords": ["Dead cells removal", "Regenerates skin","Suitable for all skin", "Chemical-free"]
+    },
+    { 
+        "productid":"3",
+        "productname": "rjuv9 nuva juice 500ml", 
+        "imgnames": ["10155_1.png", "10155_2.png", "10155_3.jpg", "10155_4.jpg", "10155_5.jpg"],
+        "price1":"1599", 
+        "price2":"1499",
+        "producturl":"rjuv9-nuva-juice-500ml",
+        "status":"1",
+        "categoryid":[1,5],
+        "description":"<p>Nuva Juice is an ayurvedic concentrated formulation for helpful to overcome different health related problems. It contains 23 scientifically researched herbs that helps to balance tridosha, improve immunity and support metalobolism.</p>",
+        "productcode":"10155",
+        "productfeatures":"<p>Nuva Juice is an ayurvedic concentrated formulation for helpful to overcome different health related problems. It contains 23 scientifically researched herbs that helps to balance tridosha, improve immunity and support metalobolism.</p><p><span class='uspbold'>ACTIVE INGREDIENTS:</span> Ashtavarga Panchang, Ashwagandha (<em>Withania somnifera</em>) roots, Kokum (<em>Garcinia indica</em>) fruit, Tulsi (<em>Ocimum sanctum</em>) whole plant, Burans (<em>Rhododendron arboreum</em>) flowers, Turmeric (<em>Curcuma longa</em>) rhizome, Konch (<em>Mucuna prurita</em>) seeds, Aloevera (<em>Aloe barbadensis</em>) leaves, Sowa (<em>Anethum sowa</em>) seeds, Arjun (<em>Terminalia arjuna</em>) bark, Sehjana (<em>Moringa oleifera</em>) bark, Wheatgrass (<em>Triticum sativum</em>) whole plant, Amla (<em>Emblica officinalis</em>), Anjeer (<em>Ficus carica</em>) fruit, Safed musli (<em>Asparagus adscendens</em>), Sea-buckthorn&nbsp;(<em>Hippophae rhamnoides</em>) Frt. Pulp.</p><p><span class='uspbold'>DOSAGE:</span> 15-20ml twice a day in a glass of water or as directed by physician.</p><p><span class='uspbold'>STORAGE:</span>Store in a cool, dry &amp; hygiene place.</p><div class='pa-prod-content'><span class='uspbold'>BENEFITS: </span><ul><li>Helps to Balance Tridosha</li><li>Helps to Improve Immunity</li><li>Support Metabolism</li></ul></div>",
+        "productusp":"<div class='pa-prod-content'><ul><li>Manufactured in GMP Certified Facility</li><li>Concentrate of 23 different herbs</li><li>100% Premium Quality Ayurvedic Formulation</li></ul></div>",
+        "keywords": ["Immunity", "Metabolism"]
+    },
+    { 
+        "productid":"4",
+        "productname": "rjuv9 tooth concentrate 15ml",
+        "imgnames": ["10154_1.png", "10154_2.jpg", "10154_3.jpg", "10154_4.jpg", "10154_5.jpg"],
+        "price1":"349",
+        "price2":"299",
+        "producturl":"rjuv9-tooth-concentrate-15ml",
+        "status":"1",
+        "categoryid":[1,3,4],
+        "description":"<p>Rjuv9 Tooth concentrate is a concentrated formula developed from scientifically researched herbal extracts &amp; herbal oil which helps to improve oral health, strengthen the gums, remove bad odours, remove plaque &amp; overcome tooth sensitivity problems.</p>",
+        "productcode":"10154",
+        "productfeatures":"<p>Rjuv9 Tooth concentrate is a concentrated formula developed from scientifically researched herbal extracts &amp; herbal oil which helps to improve oral health, strengthen the gums, remove bad odours, remove plaque &amp; overcome tooth sensitivity problems. rjuv9 Tooth Concentrate is highly economical as a small bottle of 15mL offers almost 225 dosages. Herbal extracts &amp; herbal oil helps to improve the pH of the saliva, so as to overcome teeth &amp; whole mouth related problems. We suggest you to do brushing at bedtime also, as it is much necessary compared to in the morning brushing.</p><p><span class='uspbold'>ACTIVE INGREDIENTS:</span> Ritha (<em>Sapindus trifoliatus</em>) Ext., Tomar (<em>Zanthoxylum armatum</em>) Seeds Ext., Dant Prabhakar Manjan Powder, Kapurdhara Ark Liquid, Lavangadi&nbsp;Gutika Powder, Khadiradi Bati Powder, Panchgun Oil.</p><p><span class='uspbold'>DOSAGE:</span> Pour 2 drops on a wet toothbrush &amp; continue brushing as usual or as directed by a physician.</p><p><span class='uspbold'>STORAGE:</span>Store in a cool, dry &amp; hygiene place.</p><div class='pa-prod-content'><span class='uspbold'>BENEFITS: </span><ul><li>Helps to improve oral health</li><li>Strengthen the gums</li><li>Helps to remove bad odours &amp; plaque</li><li>Helps to overcome tooth sensitivity problems</li></ul></div>",
+        "productusp":"<div class='pa-prod-content'><ul><li>Manufactured in GMP Certified Facility</li><li>Advanced Ayurvedic Formula for Sensitive Teeth</li><li>100% Premium Quality Ayurvedic Formulation</li></ul></div>",
+        "keywords": ["Oral health", "Bad odours", "Tooth sensitivity"]
+    }
+]
