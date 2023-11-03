@@ -1,32 +1,27 @@
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const express = require("express");
-const cors = require("cors"); // Import the 'cors' package
 const app = express();
 
-// File secure using dotenv -
+// file secure using dotenv -
 dotenv.config({ path: "./config.env" });
 
-// Apply CORS middleware
-app.use(cors({
-  origin: "https://wowelectricals-frontend.vercel.app", // Specify the allowed origin
-  methods: ["POST", "GET"],
-  credentials: true,
-  optionsSuccessStatus: 200,
-}));
+// CORS Policy error
+app.options("*", require("./cors/cors"));
+app.use(require("./cors/cors"));
 
 app.use(express.json());
 
-// Database connection -
+// database connection -
 require("./db/conn");
 
 // Router files
 app.use(require("./router/auth"));
 
-// Import PORT variable data -
+// import PORT variable data -
 const PORT = process.env.PORT;
 
-// To check if the server is running or not
+// to check server work or not
 app.listen(PORT, () => {
-  console.log(`Server is running at port no ${PORT}`);
+  console.log(`server is running at port no ${PORT}`);
 });
